@@ -1,0 +1,18 @@
+.experiences{
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--backgroundWhite);
+    padding: 5vw 5vw;
+}
+.experiences__heading{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.experiences__line{
+    height: 0.2vw;
+    width: 100%;
+    background-color: var(--backgroundColor);
+    border-radius: 50vw;
+}
