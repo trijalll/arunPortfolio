@@ -1,0 +1,142 @@
+/* -------part1 start-------- */
+.part1 {
+  height: 88vh;
+  width: 100%;
+  /* background-color: var(--backgroundColor); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0vw 2vw;
+  /* gap: 1vw; */
+}
+.part1__left {
+  height: 100%;
+  width: 35%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.part1__left__cont {
+  margin-right: 3vw;
+}
+#tittle__respons{
+  display: none;
+}
+.part1__photo {
+  height: 60vh;
+  width: 60vh;
+  background-image: url(./assets/dp.jpg);
+  background-position: 0vw -4vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  left: 80vh;
+  z-index: 1;
+}
+.part1__right {
+  height: 100%;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+.part1 p {
+  color: #767676;
+}
+.part1__right__line {
+  height: 30vh;
+  width: 0.1vw;
+  background-color: var(--backgroundColor);
+}
+/* -------part1 end---------- */
+/* --------part1 about start--------- */
+.about {
+  height: 70vh;
+  width: 100%;
+  background-color: var(--backgroundColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4vw;
+}
+.about__heading{
+  font-size: 1vw;
+  padding: 0vw 5vw;
+}
+.about__cont{
+  padding: 0vw 8vw;
+}
+.about__line {
+  height: 0.2vw;
+  width: 100%;
+  background-color: var(--darkLight);
+  border-radius: 50vw;
+}
+
+/* --------part1 about end--------- */
+/* -------part2 start---------- */
+.part2 {
+  min-height: 100vh;
+  width: 100%;
+  background-color: var(--backgroundColor);
+}
+/* -------part2 end---------- */
+/* -------part3 start---------- */
+.part3 {
+  min-height: 100vh;
+  width: 100%;
+  background-color: var(--backgroundWhite);
+}
+/* -------part3 end---------- */
+/* -------part4 start---------- */
+
+.part4 {
+  min-height: 100vh;
+  width: 100%;
+  background-color: var(--backgroundLight);
+}
+.button{
+  height: 8vh;
+  width: 27%;
+  /* background-color: var(--backgroundColor); */
+  border-radius: 0.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vw;
+}
+.button a{
+  text-decoration: none;
+  color: var(--themeColor);
+  font-size: 1.8vw;
+}
+
+/* -------part4 end---------- */
+/* -------part5 start---------- */
+
+.part5{
+  height: 100vh;
+  width: 100%;
+  background-color: var(--backgroundColor);
+  padding: 5vw 5vw;
+}
+#experiences__line{
+  background-color: var(--darkLight);
+}
+
+/* -------part5 end---------- */
+/* -------part6 start---------- */
+
+.part6{
+  height: 70vh;
+  width: 100%;
+  padding: 5vw 5vw;
+}
+#experiences__line{
+  background-color: var(--darkLight);
+}
+#experiences__card{
+  margin-top: -2vw;
+}
+/* -------part6 end---------- */

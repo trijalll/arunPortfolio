@@ -1,0 +1,21 @@
+@media (max-width:500px) {
+    .card__tittle__name{
+        font-size: 3vw;
+    }
+    .card__head__tittle p{
+        font-size: 2.5vw;
+    }
+    .card__head__tittle{
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+    }
+    .card__cont__desc p{
+        font-size: 2.5vw;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+    }
+}

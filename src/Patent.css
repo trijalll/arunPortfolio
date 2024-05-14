@@ -1,0 +1,11 @@
+.part6{
+    height: 70vh;
+    width: 100%;
+    padding: 5vw 5vw;
+  }
+  #experiences__line{
+    background-color: var(--darkLight);
+  }
+  #experiences__card{
+    margin-top: -2vw;
+  }

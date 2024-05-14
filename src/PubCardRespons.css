@@ -1,0 +1,5 @@
+@media (max-width:500px) {
+    .card__tittle__name{
+        font-size: 3vw;
+    }
+}

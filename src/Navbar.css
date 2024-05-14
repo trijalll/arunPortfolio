@@ -1,0 +1,43 @@
+.navbar{
+    height: 12vh;
+    width: 100%;
+    background-color: var(--backgroundColor);
+    display: flex;
+    padding: 0vw 3vw;
+    position: sticky;
+}
+.navbar a{
+    text-decoration: none;
+}
+.navbar__left{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+.navbar__right a{
+    color: var(--textColor);
+}
+.navbar__right a:hover{
+    font-weight: bold;
+}
+.navbar__right{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 2vw;
+}
+#logo{
+    font-weight: bold;
+    font-size: 2vw;
+    color: var(--themeColor);
+}
+.menuRespons{
+    display: none;
+}
+.navbarHidden{
+    display: none;
+}

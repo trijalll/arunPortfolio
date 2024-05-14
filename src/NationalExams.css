@@ -1,0 +1,6 @@
+.lineColor{
+    background-color: var(--darkLight) !important;
+}
+.examsBackground{
+    background-color: var(--backgroundColor) !important;
+}
